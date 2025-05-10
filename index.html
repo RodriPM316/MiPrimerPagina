@@ -7,11 +7,11 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.5;
+            line-height: 1.6;
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fcefef;
+            background-color: #fdecec;
         }
         header {
             background-color: #333;
@@ -24,14 +24,24 @@
             border: 1px solid #ddd;
             margin: 15px 0;
             padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .producto img {
+            max-width: 100px;
+            margin-right: 10px;
+        }
+        .producto-info {
+            flex-grow: 1;
         }
         .seccion {
             background-color: white;
             margin: 20px 0;
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 10px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+
     </style>
 </head>
 <body>
@@ -60,18 +70,27 @@
     <div class="seccion">
         <h2>Marcas Populares</h2>
         <div class="producto">
+            <img src="Imagenes/Nike.jpg" alt="Nike">
+            <div class="producto-info">
                 <h3>Nike</h3>
                 <p>Conocida por su innovación y diseños deportivos de vanguardia.</p>
+            </div>
         </div>
 
         <div class="producto">
+            <img src="Imagenes/Adidas.jpg" alt="Adidas">
+            <div class="producto-info">
                 <h3>Adidas</h3>
                 <p>Líder en calzado deportivo con tecnologías de última generación.</p>
+            </div>
         </div>
 
         <div class="producto">
+            <img src="Imagenes/Converse.jpg" alt="Converse">
+            <div class="producto-info">
                 <h3>Converse</h3>
                 <p>Icónica marca de tenis casual con décadas de historia.</p>
+            </div>
         </div>
     </div>
 
